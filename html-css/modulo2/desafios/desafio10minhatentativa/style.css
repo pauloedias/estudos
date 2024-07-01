@@ -1,0 +1,134 @@
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: rgb(132, 225, 173);
+}
+
+header{
+    text-align: center;
+    background-image:linear-gradient(to top, rgb(26, 92, 56),rgb(132, 225, 173 ));
+    color: white;
+    font-size: big;
+}
+
+header>nav{
+    text-align: left;
+    text-indent: 10px;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.3);
+    font-weight: bolder;
+}
+
+header>h1{
+    margin: 20px;
+}
+
+header>p{
+    padding: 10px;
+}
+
+nav>a{
+    color: white;
+    text-decoration-line: none;
+    padding: 10px;
+}
+
+main{
+    background-color: white;
+    margin: 0px 200px 0px 200px;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+}
+
+main>h1{
+    margin: 0px 10px 0px 10px;
+    padding: 10px;
+    font-family: 'idroid';
+    color: rgb(27, 93, 57);
+}
+
+main>h2{
+    padding: 0px 0px 0px 20px;  
+    font-family: 'idroid';
+    color: rgb(53, 115, 80);
+}
+
+main>p{
+    padding: 0px 0px 0px 20px;  
+    text-indent: 50px;
+}
+
+a{
+    color: rgb(53, 115, 80);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+img{
+    height: 50%;
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+#bugdroid{
+    height: auto;
+    width: auto;
+    display: block;
+    margin: auto;
+}
+
+div{
+    height: 450px;
+    display:flex;
+    background-color:  rgb(26, 92, 56);
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    margin: 0px;
+    padding: 6px;
+    border-radius: 4px;
+    color: white;
+    text-indent: 20px;
+    background-color: rgb(47, 168, 102);
+}
+
+dl{
+    text-indent: 50px;
+    display: inline-block;
+}
+
+#listadiv{
+    display: inline-block;
+    background-color: rgb(197, 235, 214);
+    margin: 10px 20px 10px 20px;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.3); 
+    border-radius: 4px;
+}
+
+#listadiv>p{
+    text-indent: 46px;
+    padding: 10px;
+}
+
+#lista{
+    text-indent: 50px;
+}
+
+footer{
+    background-color: rgb(26, 92, 56);
+    color: white;
+    margin: 0px;
+}
+
+footer>p{
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
+}
