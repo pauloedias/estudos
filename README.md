@@ -3,5 +3,5 @@
 
 estou apredendo a criar sites e agora vou gerenciar meus repositórios!
 
-Projeto Cordel
+Projeto Cordel:
 https://pauloedias.github.io/estudos/html-css/modulo_3/desafios/d012/index.html
